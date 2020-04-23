@@ -1,0 +1,72 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "AccountOpening",
+  "desc": "Luis Model for CoreBot",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "NewApplication"
+    },
+    {
+      "name": "ResumeApplication"
+    },
+    {
+      "name": "Cancel"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "FirstName",
+      "roles": []
+    },
+    {
+      "name": "MiddleName",
+      "roles": []
+    },
+    {
+      "name": "LastName",
+      "roles": []
+    }
+  ],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "open account",
+      "intent": "NewApplication",
+      "entities": []
+    },
+    {
+      "text": "how to open an account",
+      "intent": "NewApplication",
+      "entities": []
+    },
+    {
+      "text": "account creation",
+      "intent": "NewApplication",
+      "entities": []
+    },
+    {
+      "text": "create account",
+      "intent": "NewApplication",
+      "entities": []
+    },
+    {
+      "text": "wintwer is coming",
+      "intent": "None",
+      "entities": []
+    }
+
+  ],
+  "settings": []
+}
